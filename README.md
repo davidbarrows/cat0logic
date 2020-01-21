@@ -1,9 +1,6 @@
 # Catologic
 
-2020-01-06 - Notes - got to Step 6, "HTTP", "Search by Name" - 
-need to figure out how to search on first OR last name.
-
-2020-01-04 - Notes - got to step 2, "displaying a list" in the Angular tutorial
+This project started life as a copy of the Angular tutorial.  The goal is to make a front-end app to manage musicians, their contacts and musical projects etc.
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
