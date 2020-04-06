@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('catologic app is running!');
+    expect(page.getTitleText()).toEqual('cat0logic app is running!');
   });
 
   afterEach(async () => {

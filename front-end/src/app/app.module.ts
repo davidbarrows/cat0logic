@@ -12,6 +12,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService }  from './services/in-memory-data.service';
 import { HumanSearchComponent } from './human-search/human-search.component';
+/* Angular material 8 */
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AngularMaterialModule } from './angular-material.module';
 
 @NgModule({
   declarations: [
@@ -23,6 +26,7 @@ import { HumanSearchComponent } from './human-search/human-search.component';
     HumanSearchComponent
   ],
   imports: [
+    AngularMaterialModule,
     BrowserModule,
     AppRoutingModule,
     FormsModule,
@@ -31,7 +35,8 @@ import { HumanSearchComponent } from './human-search/human-search.component';
     // and returns simulated server responses.
     // Remove it when a real server is ready to receive requests.
     HttpClientInMemoryWebApiModule.forRoot(
-      InMemoryDataService, { dataEncapsulation: false })
+      InMemoryDataService, { dataEncapsulation: false }),
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

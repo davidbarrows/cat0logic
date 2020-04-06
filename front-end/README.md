@@ -1,4 +1,4 @@
-# Catologic
+# Cat0logic
 
 This project started life as a copy of the Angular tutorial.  The goal is to make a front-end app to manage musicians, their contacts and musical projects etc.
 

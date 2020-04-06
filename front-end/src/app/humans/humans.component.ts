@@ -9,7 +9,7 @@ import { HumanService } from '../services/human.service';
 })
 export class HumansComponent implements OnInit {
   humans: Human[];
-
+  displayedColumns: string[] = ['id', 'fullName', 'firstName', 'lastName', 'deleteHuman'];
   constructor(private humanService: HumanService) { }
 
   ngOnInit() {
