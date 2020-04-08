@@ -6,16 +6,16 @@ using IdentityServer4.Test;
 
 namespace cat0logic.IdentityServer
 {
-    public class Config
+    public static class Config
     {
-        public static IEnumerable<IdentityResource> IdentityResources = new List<IdentityResource>
+        public static readonly IEnumerable<IdentityResource> IdentityResources = new List<IdentityResource>
         {
             new IdentityResources.OpenId(),
             new IdentityResources.Profile(),
             new IdentityResources.Email()
         };
 
-        public static IEnumerable<ApiResource> ApiResources = new List<ApiResource>
+        public static readonly IEnumerable<ApiResource> ApiResources = new List<ApiResource>
         {
             new ApiResource("movie_api", "Movie Review Service")
             {
@@ -23,12 +23,12 @@ namespace cat0logic.IdentityServer
             }
         };
 
-        public static IEnumerable<Client> Clients = new List<Client>
+        public static readonly IEnumerable<Client> Clients = new List<Client>
         {
             new Client
             {
                 ClientId = "movie_client",
-                ClientName = "Moive Review App",
+                ClientName = "Movie Review App",
                 AllowedGrantTypes = GrantTypes.Code,
                 RequirePkce = true,
                 ClientSecrets = 
@@ -55,7 +55,7 @@ namespace cat0logic.IdentityServer
             }
         };
 
-        public static List<TestUser> Users = new List<TestUser>()
+        public static readonly List<TestUser> Users = new List<TestUser>()
         {
             new TestUser {SubjectId="user1", Username="user1", Password = "user1",
                 Claims =
