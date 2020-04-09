@@ -24,6 +24,8 @@ TODO:
 - for a given work or artist I want links to the Spotify / Apple Music page, Wikipedia page, lots of lists in a tree structure etc.
 - Essentially I want this thing to be a tool for musicians, but there might be different tiers (Premium etc) that let you do more things.
 - These are the ideas I have at the moment, at a high level.
+- test commit
+
 
 
 
