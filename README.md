@@ -26,7 +26,7 @@ TODO:
 - These are the ideas I have at the moment, at a high level.
 - test commit
 
-- IDEAS for an app of sufficient complexity to demonstrate our various technical skills:
+IDEAS for an app of sufficient complexity to demonstrate our various technical skills:
 
 - imagine features of the app such as the ability to organize a gig for musicians.
 - various roles could include:
