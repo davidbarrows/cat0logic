@@ -26,6 +26,19 @@ TODO:
 - These are the ideas I have at the moment, at a high level.
 - test commit
 
+- IDEAS for an app of sufficient complexity to demonstrate our various technical skills:
+
+- imagine features of the app such as the ability to organize a gig for musicians.
+- various roles could include:
+- the music agent (the middleman between the client and the musicians)
+- the client (say, the mother of the bride who's paying for a wedding band)
+- the bandleader (the one who hires the individual musicians)
+- the players (the individual members of the band)
+- each role would have different types of access, e.g.:
+- the client can create a request for an event (type = wedding, type of band required, genres of music desired etc)
+- the music agent puts the bid out to different bands or bandleaders; there may be employees and contractors
+- enable the exchange of various info - maybe the music agent has a roster of bands (see my cousin's website for an example: http://elanartists.com/)
+- the agency needs to keep track of many events and the musicians / DJs / caterers / photographers etc
 
 
 
